@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjust_another_blog=self.webpackChunkjust_another_blog||[]).push([[9514],{2849:o=>{o.exports=JSON.parse('{"permalink":"/just-another-blog/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
