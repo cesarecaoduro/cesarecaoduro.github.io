@@ -10,7 +10,7 @@ const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://cesarecaoduro.github.io',
-  baseUrl: '/',
+  baseUrl: '/just-another-blog/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
