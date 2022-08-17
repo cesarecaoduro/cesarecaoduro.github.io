@@ -15,3 +15,4 @@ jobs:
           git-user: cesarecaoduro
           git-password: ${{ secrets.GITHUB_TOKEN }}
           deployment-branch: gh-pages
+          node-version: 16.x
