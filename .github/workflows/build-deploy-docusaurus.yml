@@ -1,0 +1,17 @@
+name: Build & Deploy Docusaurus
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: redkubes/docusaurus-deploy-action@v1
+        with:
+          source-folder: website
+          git-user: cesarecaoduro
+          git-password: ${{ secrets.GITHUB_TOKEN }}
+          deployment-branch: gh-pages
