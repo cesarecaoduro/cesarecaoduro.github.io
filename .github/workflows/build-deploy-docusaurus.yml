@@ -9,9 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - uses: redkubes/docusaurus-deploy-action@v1
         with:
           node-version: 16
+      - uses: redkubes/docusaurus-deploy-action@v1
+        with:
           source-folder: just-another-blog
           git-user: cesarecaoduro
           git-password: ${{ secrets.GITHUB_TOKEN }}
